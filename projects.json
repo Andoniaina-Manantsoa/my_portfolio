@@ -1,0 +1,50 @@
+[
+  {
+    "title": "SportSee",
+    "description": "Dashboard analytique orienté performance sportive avec visualisations de données et composants réutilisables.",
+    "tags": ["React", "API REST", "Charts"],
+    "badge": "React",
+    "color": "#89f0d3",
+    "link": "https://my-app-sportsee-git-vercel-react-se-516884-andoniainas-projects.vercel.app/"
+  },
+  {
+    "title": "Application bancaire",
+    "description": "Interface sécurisée pour la gestion de comptes utilisateurs avec authentification, documentation d'API et architecture propre.",
+    "tags": ["Next.js", "Swagger", "Redux", "typescript"],
+    "badge": "Next",
+    "color": "#6ea8fe",
+    "link": "https://github.com/Andoniaina-Manantsoa/projet_13"
+  },
+  {
+    "title": "Kasa Immobilier",
+    "description": "Single-page application de location immobilière avec routing dynamique et composants UI maintenables.",
+    "tags": ["React", "Router", "SASS"],
+    "badge": "SPA",
+    "color": "#ffb86c",
+    "link": "https://my-react-app-sandy-iota.vercel.app/"
+  },
+  {
+    "title": "Suite de tests RH",
+    "description": "Mise en place de scénarios unitaires, d'intégration et end-to-end pour renforcer la fiabilité d'une application SaaS.",
+    "tags": ["Jest", "Cypress", "E2E"],
+    "badge": "Tests",
+    "color": "#d59cff",
+    "link": "https://github.com/Andoniaina-Manantsoa/bill-app"
+  },
+  {
+    "title": "Migration jQuery vers React",
+    "description": "Refonte progressive d'une base legacy en composants modernes pour améliorer les performances et la maintenance.",
+    "tags": ["React", "Refacto", "Legacy"],
+    "badge": "Refacto",
+    "color": "#89f0d3",
+    "link": "https://h-rnet-modifier.vercel.app/"
+  },
+  {
+    "title": "Conception UX/UI",
+    "description": "Construction de parcours utilisateur, maquettes et organisation produit pour une application métier.",
+    "tags": ["Figma", "UML", "Kanban"],
+    "badge": "Design",
+    "color": "#ff9b63",
+    "link": "https://github.com/Andoniaina-Manantsoa/projet_10"
+  }
+]

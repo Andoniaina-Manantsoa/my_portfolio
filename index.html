@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de développeur web moderne en HTML5, CSS3 et JavaScript.">
+  <title>Portfolio | Andoniaina M.R.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Manrope:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="page-shell"></div>
+
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="brand" href="#accueil" aria-label="Retour à l'accueil">
+        <span class="brand-mark">&lt;/&gt;</span>
+        <span>Andoniaina.dev</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu"
+        aria-label="Ouvrir le menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" id="nav-menu">
+        <a href="#apropos">À propos</a>
+        <a href="#competences">Compétences</a>
+        <a href="#projets">Projets</a>
+        <a href="#parcours">Parcours</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="accueil">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Développeur front-end React / JavaScript</p>
+          <h1>Je conçois des interfaces web claires, rapides et modernes.</h1>
+          <p class="hero-text">
+            Passionné par l'expérience utilisateur, j'aime transformer une idée en interface vivante,
+            responsive et performante. Ce modèle de portfolio reprend ton exemple dans une version
+            complète en HTML5, CSS3 et JavaScript.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projets">Voir mes projets</a>
+            <a class="btn btn-secondary" href="#contact">Me contacter</a>
+          </div>
+
+          <ul class="hero-links" aria-label="Liens professionnels">
+            <li><a href="https://github.com/Andoniaina-Manantsoa" target="_blank" rel="noreferrer">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/andoniaina-manantsoa-razanadrakoto-007389185/" target="_blank"
+                rel="noreferrer">LinkedIn</a></li>
+            <li><a href="mailto:amrazanadrakoto@gmail.com">Email</a></li>
+          </ul>
+        </div>
+
+        <aside class="hero-card reveal reveal-delay">
+          <div class="avatar">AMR</div>
+          <h2>Andoniaina Manantsoa R.</h2>
+          <p>Concepteur Développeur d'applications web</p>
+
+          <div class="quick-stats">
+            <article>
+              <strong>7+</strong>
+              <span>projets livrés</span>
+            </article>
+            <article>
+              <strong>6+</strong>
+              <span>technologies maîtrisées</span>
+            </article>
+            <article>
+              <strong>2026</strong>
+              <span>diplôme visé</span>
+            </article>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section" id="apropos">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">À propos</p>
+          <h2>Un profil orienté qualité, clarté et expérience utilisateur.</h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              Développeur front-end spécialisé en React, JavaScript, HTML5 et CSS3, je crée des
+              interfaces accessibles et maintenables avec une attention particulière portée aux
+              performances et à la lisibilité du code.
+            </p>
+            <p>
+              Je fais les conceptions des maquettes, créations des UserStories, développement des composants réutilisables et l'intégration responsive.
+            </p>
+            <p>
+              J'interviens aussi bien sur la création d'interfaces from scratch que sur l'intégration,
+              la refonte d'applications existantes, la consommation d'API REST et l'amélioration continue
+              de l'ergonomie.
+            </p>
+          </div>
+
+          <div class="about-panel reveal reveal-delay">
+            <div class="panel-item">
+              <span class="panel-label">Spécialités</span>
+              <p>React, intégration responsive, composants réutilisables, animations UI</p>
+            </div>
+            <div class="panel-item">
+              <span class="panel-label">Méthodes</span>
+              <p>Clean code, tests, versioning Git, organisation Agile</p>
+            </div>
+            <div class="panel-item">
+              <span class="panel-label">Objectif</span>
+              <p>Construire des interfaces professionnelles qui donnent confiance dès la première visite</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="competences">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Compétences</p>
+          <h2>Technologies et outils utilisés au quotidien.</h2>
+        </div>
+
+        <div class="skills-grid reveal">
+          <div class="skill-chip"><span class="skill-dot html"></span>HTML5</div>
+          <div class="skill-chip"><span class="skill-dot css"></span>CSS3</div>
+          <div class="skill-chip"><span class="skill-dot js"></span>JavaScript ES6+</div>
+          <div class="skill-chip"><span class="skill-dot react"></span>React JS</div>
+          <div class="skill-chip"><span class="skill-dot next"></span>Next.js</div>
+          <div class="skill-chip"><span class="skill-dot sass"></span>SASS</div>
+          <div class="skill-chip"><span class="skill-dot api"></span>API REST</div>
+          <div class="skill-chip"><span class="skill-dot node"></span>Node.js</div>
+          <div class="skill-chip"><span class="skill-dot git"></span>Git / GitHub</div>
+          <div class="skill-chip"><span class="skill-dot figma"></span>Figma</div>
+          <div class="skill-chip"><span class="skill-dot test"></span>Jest / Cypress</div>
+          <div class="skill-chip"><span class="skill-dot agile"></span>Agile / Scrum</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projets">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Projets</p>
+          <h2>Quelques réalisations représentatives.</h2>
+        </div>
+
+        <div class="projects-grid" id="projects-grid"></div>
+      </div>
+    </section>
+
+    <section class="section" id="parcours">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Parcours</p>
+          <h2>Étapes clés de mon évolution.</h2>
+        </div>
+
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2026 - en cours</span>
+              <h3>Lead developer JavaScript</h3>
+              <p>Formation d'approfondissement en développement JavaScript et leadership technique.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2025 - 2026</span>
+              <h3>Développeur d'application JavaScript React</h3>
+              <p>Formation professionnalisante avec réalisation de projets concrets orientés front-end.</p>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2014 - 2016</span>
+              <h3>Management d'entreprise & Banque</h3>
+              <p>Relation client, gestion de portefeuille, analyse de risques.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Parlons de ton prochain projet.</h2>
+        </div>
+
+        <div class="contact-grid">
+          <a class="contact-card reveal" href="mailto:amrazanadrakot@gmail.com">
+            <span class="contact-label">Email</span>
+            <strong>amrazanadrakot@gmail.com</strong>
+          </a>
+
+          <a class="contact-card reveal reveal-delay" href="https://github.com/Andoniaina-Manantsoa" target="_blank"
+            rel="noreferrer">
+            <span class="contact-label">GitHub</span>
+            <strong>github.com/Andoniaina-Manantsoa</strong>
+          </a>
+
+          <a class="contact-card reveal reveal-delay-2"
+            href="https://www.linkedin.com/in/andoniaina-manantsoa-razanadrakoto-007389185/" target="_blank"
+            rel="noreferrer">
+            <span class="contact-label">LinkedIn</span>
+            <strong>linkedin.com/in/Andoniaina-Manantsoa</strong>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>Conçu en HTML5, CSS3 et JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
